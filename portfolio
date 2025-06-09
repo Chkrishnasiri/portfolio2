@@ -1,0 +1,972 @@
+<!DOCTYPE html><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv="X-UA-compatabile" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive personal Website Design | codehal</title>
+
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--header design-->
+    <header class="header">
+        <a href="#" class="logo">portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <box-icon name='menu' id="menu-icon"></box-icon>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="portfolio">Portfolio</a>
+            <a href="contact">Contact</a>
+        </nav>
+    </header>
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content"></div>
+        <h1>Hello, It's Me <span>SIRI</span> From kakinada</h1>
+        <h2>And I'm a <span>Frontend Developer!</span></h2>
+        <p><h3>and i am a student in kakinada institute of engineering and technology for womens</h3></p>
+        <div class="Social-media">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+        <a href="#" class="btn">Download CV</a>
+    </div>
+    <div class="home-img">
+        <img src="G:\My Drive\Bizective\siri2.jpg" alt="">
+    </div>
+        </section>
+
+        <!--about section design-->
+        <section class="about" id="about">
+            <div class="home-img">
+                <img src="C:\Users\srini\Downloads\WhatsApp Image 2025-02-17 at 8.00.43 PM.jpeg" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About<span>Me</span></h2>
+                <h3>Fortend Developer!</h3>
+                <p>my name is siri and i am studing btech 2nd year my hobbies are listening music and reading books and my skills are html,css,javascript.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </section>
+
+        <!--services selection device-->
+        <section class="services" id="services">
+            <h2 class=heading>Our <span>Services</span></h2>
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bx-code-alt' ></i>
+                    <h3>Web Development</h3>
+                    <p>Web development is the process of creating, maintaining, and improving websites. It involves web design, programming, publishing, and database management. 
+                        Types of web development
+                        Front-end development: The part of a website that users see and interact with. This includes the user interface (UI). 
+                        Back-end development: The server-side software that runs a website, including databases, APIs, and architecture. 
+                        Full-stack development: The process of building both the front-end and back-end of a website. <br>Web development skills
+                        Web developers use programming languages like HTML, CSS, and JavaScript. They may also use content management systems (CMS) to make it easier for others to change content. 
+                        Web development career
+                        Web development is a good career choice with high rates of pay</br></p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                    <div class="services-box">
+                        <h3>Graphic Design</h3>
+                        <i class='bx bxs-paint' ></i>
+                        <p>Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users' specific needs and focus on the logic of displaying elements in interactive designs to optimize the user experienc<br>Graphic design elements 
+                            Line, Shape, Form, Texture, Space, Imagery, Typography, and Color.
+                            Graphic design in marketing
+                            Graphic design is a crucial role in marketing, advertising, user interface design, and creating memorable brand identities. 
+                            Graphic design career
+                            Graphic designers can work in many industries, including fashion, IT, gaming, advertising, news media, and entertainment</br></p>
+                            <a href="#" class="btn">Read More</a>
+                    </div>
+                    <div class="services-box">
+                        <i class='bx bx-bar-chart-alt' ></i>
+                        <h3>Digital Marketing</h3>
+                        <p>Digital marketing is the use of online technologies to promote a business's products and services. It includes using email, social media, and other digital channels to reach customers. <br>Types of digital marketing
+                            Content marketing: Involves creating content like blog posts, videos, and podcasts to engage with customers 
+                            Search engine optimization (SEO): Involves optimizing a website's content and technical setup to improve search engine rankings 
+                            Email marketing: Involves sending promotional content to customers via email 
+                            Social media marketing: Involves using social media platforms to reach customers 
+                            Affiliate marketing: Involves promoting other businesses' products in exchange for a commission 
+                            Digital marketing goals 
+                            Increase brand awareness
+                            Drive sales
+                            Get customers to take action, like signing up for an email list or making a purchase
+                            Get content to the top of search engine results pages</p>
+                            <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--portfolio section design-->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Latest <span>Project</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrs0C65eIiKD_amhAEcP8UBKTReMOu7Ixmeg&s" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Web design is the process of creating a website's visual layout and content. It's a combination of creative and technical skills that involves planning, designing, and implementing a website's look and feel. </p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="https://t4.ftcdn.net/jpg/02/66/07/83/360_F_266078398_vXlKFR2KDOj8bpsly1lduNbvaDrZGMY2.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Create a website's layout, color scheme, and visual themes 
+                            Ensure the website is easy to navigate and visually appealing 
+                            Research the target audience to create a website that meets their needs 
+                            Use tools like InVision to create mockups and templates </p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="https://cdn.dribbble.com/userupload/6508147/file/original-11794da09cf2fda821918b0be52877cf.jpg?format=webp&resize=400x300&vertical=center" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Web design involves creating the visual layout and aesthetics of a website, focusing on user experience, graphics, and overall look. Front-end development, on the other hand, involves implementing the design into a functional website using coding languages like HTML, CSS, and JavaScript.</p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+                </div>
+                
+            <div class="portfolio-box">
+                <img src="https://img.freepik.com/free-vector/abstract-technology-particle-background_52683-25766.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p> web designer is responsible for creating the design and layout of a website or web pages. Unlike web developers, who specialise in creating new websites' structures and the code that forms these, web designers tend to focus on the visual aspects of a site, such as its layout and its usability.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+                </div>
+                
+                <div class="portfolio-box">
+                    <img src="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>A web designer creates the layout and design of a website. In simple terms, a website designer makes a site look good. They use design programmes to create visual elements and usually have expertise in user interface (UI), which means they strategically design a site that's intuitive and easy for visitors to naviga</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                    <div class="portfolio-box">
+                        <img src="https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?semt=ais_hybrid" alt="">
+                        <div class="portfolio-layer">
+                            <h4>Web Design</h4>
+                            <p>Web design classes teach you how to design, layout, and edit websites and pages, to give them a particular look and feel that you want. Web design courses on Udemy teach many skills related to designing and building web pages of every kind.</p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+         </section>
+    </body>
+<!--contact section design-->
+<section class="contact" id="contact">
+    <div class="contact-container"></div>
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email subject">
+            </div>
+            <textarea name="" cols="30"rows="10" placeholder="Your Message"></textarea>
+            <input type="Submit" value="Send Message" class="btn">
+    </form>
+</section>
+<!--footer design-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2025 by Codehal | All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+<html lang="en">
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv="X-UA-compatabile" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive personal Website Design | codehal</title>
+
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--header design-->
+    <header class="header">
+        <a href="#" class="logo">portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <box-icon name='menu' id="menu-icon"></box-icon>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="portfolio">Portfolio</a>
+            <a href="contact">Contact</a>
+        </nav>
+    </header>
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content"></div>
+        <h1>Hello, It's Me <span>SIRI</span> From kakinada</h1>
+        <h2>And I'm a <span>Frontend Developer!</span></h2>
+        <p><h3>and i am a student in kakinada institute of engineering and technology for womens</h3></p>
+        <div class="Social-media">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+        <a href="#" class="btn">Download CV</a>
+    </div>
+    <div class="home-img">
+        <img src="G:\My Drive\Bizective\siri2.jpg" alt="">
+    </div>
+        </section>
+
+        <!--about section design-->
+        <section class="about" id="about">
+            <div class="home-img">
+                <img src="C:\Users\srini\Downloads\WhatsApp Image 2025-02-17 at 8.00.43 PM.jpeg" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About<span>Me</span></h2>
+                <h3>Fortend Developer!</h3>
+                <p>my name is siri and i am studing btech 2nd year my hobbies are listening music and reading books and my skills are html,css,javascript.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </section>
+
+        <!--services selection device-->
+        <section class="services" id="services">
+            <h2 class=heading>Our <span>Services</span></h2>
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bx-code-alt' ></i>
+                    <h3>Web Development</h3>
+                    <p>Web development is the process of creating, maintaining, and improving websites. It involves web design, programming, publishing, and database management. 
+                        Types of web development
+                        Front-end development: The part of a website that users see and interact with. This includes the user interface (UI). 
+                        Back-end development: The server-side software that runs a website, including databases, APIs, and architecture. 
+                        Full-stack development: The process of building both the front-end and back-end of a website. <br>Web development skills
+                        Web developers use programming languages like HTML, CSS, and JavaScript. They may also use content management systems (CMS) to make it easier for others to change content. 
+                        Web development career
+                        Web development is a good career choice with high rates of pay</br></p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                    <div class="services-box">
+                        <h3>Graphic Design</h3>
+                        <i class='bx bxs-paint' ></i>
+                        <p>Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users' specific needs and focus on the logic of displaying elements in interactive designs to optimize the user experienc<br>Graphic design elements 
+                            Line, Shape, Form, Texture, Space, Imagery, Typography, and Color.
+                            Graphic design in marketing
+                            Graphic design is a crucial role in marketing, advertising, user interface design, and creating memorable brand identities. 
+                            Graphic design career
+                            Graphic designers can work in many industries, including fashion, IT, gaming, advertising, news media, and entertainment</br></p>
+                            <a href="#" class="btn">Read More</a>
+                    </div>
+                    <div class="services-box">
+                        <i class='bx bx-bar-chart-alt' ></i>
+                        <h3>Digital Marketing</h3>
+                        <p>Digital marketing is the use of online technologies to promote a business's products and services. It includes using email, social media, and other digital channels to reach customers. <br>Types of digital marketing
+                            Content marketing: Involves creating content like blog posts, videos, and podcasts to engage with customers 
+                            Search engine optimization (SEO): Involves optimizing a website's content and technical setup to improve search engine rankings 
+                            Email marketing: Involves sending promotional content to customers via email 
+                            Social media marketing: Involves using social media platforms to reach customers 
+                            Affiliate marketing: Involves promoting other businesses' products in exchange for a commission 
+                            Digital marketing goals 
+                            Increase brand awareness
+                            Drive sales
+                            Get customers to take action, like signing up for an email list or making a purchase
+                            Get content to the top of search engine results pages</p>
+                            <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--portfolio section design-->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Latest <span>Project</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrs0C65eIiKD_amhAEcP8UBKTReMOu7Ixmeg&s" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Web design is the process of creating a website's visual layout and content. It's a combination of creative and technical skills that involves planning, designing, and implementing a website's look and feel. </p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="https://t4.ftcdn.net/jpg/02/66/07/83/360_F_266078398_vXlKFR2KDOj8bpsly1lduNbvaDrZGMY2.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Create a website's layout, color scheme, and visual themes 
+                            Ensure the website is easy to navigate and visually appealing 
+                            Research the target audience to create a website that meets their needs 
+                            Use tools like InVision to create mockups and templates </p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="https://cdn.dribbble.com/userupload/6508147/file/original-11794da09cf2fda821918b0be52877cf.jpg?format=webp&resize=400x300&vertical=center" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Web design involves creating the visual layout and aesthetics of a website, focusing on user experience, graphics, and overall look. Front-end development, on the other hand, involves implementing the design into a functional website using coding languages like HTML, CSS, and JavaScript.</p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+                </div>
+                
+            <div class="portfolio-box">
+                <img src="https://img.freepik.com/free-vector/abstract-technology-particle-background_52683-25766.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p> web designer is responsible for creating the design and layout of a website or web pages. Unlike web developers, who specialise in creating new websites' structures and the code that forms these, web designers tend to focus on the visual aspects of a site, such as its layout and its usability.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+                </div>
+                
+                <div class="portfolio-box">
+                    <img src="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>A web designer creates the layout and design of a website. In simple terms, a website designer makes a site look good. They use design programmes to create visual elements and usually have expertise in user interface (UI), which means they strategically design a site that's intuitive and easy for visitors to naviga</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                    <div class="portfolio-box">
+                        <img src="https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?semt=ais_hybrid" alt="">
+                        <div class="portfolio-layer">
+                            <h4>Web Design</h4>
+                            <p>Web design classes teach you how to design, layout, and edit websites and pages, to give them a particular look and feel that you want. Web design courses on Udemy teach many skills related to designing and building web pages of every kind.</p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+         </section>
+    </body>
+<!--contact section design-->
+<section class="contact" id="contact">
+    <div class="contact-container"></div>
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email subject">
+            </div>
+            <textarea name="" cols="30"rows="10" placeholder="Your Message"></textarea>
+            <input type="Submit" value="Send Message" class="btn">
+    </form>
+</section>
+<!--footer design-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2025 by Codehal | All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+
+
+<!--scroll reveal-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--typed js-->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<!--custom js-->
+<script src="script.js"></script>
+</body>
+</html>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+}
+
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(home.jpeg);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:  2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+}
+
+.header.sticky {
+    border-bottom: .1rem solid rgba(0, 0, 0, .2);
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+    border: circle;
+    border-spacing: 2rem;
+}
+.navbar a {
+    font-size: 1.7rem;
+    color: var(--second-bg-color);
+    margin-left: 4rem;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: var(--main-color);
+}
+
+#menu-icon {
+    font-size: 3.6rem;
+    color: var(--main-color);
+}
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-img img {
+    width: 180px;
+    border-radius: 50;
+    border: .25rem solid var(--main-color);
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2.4rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+
+}
+.home-content h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.home-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+}
+
+span {
+    color: var(--main-color);
+}
+.home-content h1 {
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.home-content p {
+    font-size: 1.6rem;
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    background: transparent;
+    height: 2.5rem;
+    border:  var(--border);
+    border-radius: 50%;
+    font-size: 1.3rem;
+    color: var(--main-color);
+    margin: 0.2rem;
+    transition: .5s ease;
+}
+
+.social-media a hover {
+    background: var(--main-color);
+    color: var(--bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--second-bg-color);
+}
+.home-img img {
+    width: 35vw;
+}
+
+.heading {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.about-content h2 {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content h3 {
+    font-size: 2.6rem;
+}
+
+.about-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.services h2 {
+    margin-bottom: 5rem;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-container .services-box {
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+}
+
+.services-container .services-box:hover {
+    border: var(--main-color);
+    transform: scale(1.02);
+}
+
+.services-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.services-box h3 {
+    font-size: 2.6rem;
+}
+
+.services-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+.portfolio {
+    background: var(--second-bg-color);
+}
+
+.portfolio h2 {
+    margin-bottom: 4rem;
+}
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.portfolio-container .portfolio-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1 rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+}
+
+.portfolio-box img {
+    width: 100%;
+    transition: .5s ease;
+}
+
+.portfolio-box:hover img {
+    transform: scale(12.2);
+}
+
+.portfolio-box .portfolio-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+
+.portfolio-box:hover .portfolio-layer {
+    transform: translateY(0);
+}
+.portfolio-layer h4  {
+    font-size: 3rem;
+}
+
+.portfolio-layer p {
+    font-size: 1.6rem;
+    margin: .3rem 0 1rem;
+}
+
+.portfolio-layer a {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--text-color);
+    border-radius: 50%;
+}
+
+.portfolio-layer a i {
+    font-size: 2rem;
+    color: var(--second-bg-color);
+}
+
+.contact h2 {
+    margin-bottom: 3rem;
+}
+
+.contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.conatct form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+
+.contact form .input-box input {
+    width: 49%;
+}
+
+.conatct form textarea {
+    resize: none;
+}
+
+.contact form .btn {
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--second-bg-color);
+}
+
+.footer-text p {
+    font-size: 1.6rem;
+}
+
+.footer-iconTop a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: var(--main-color);
+    border-radius: .8rem;
+    transition: .5s ease;
+}
+
+.footer-iconTop a:hover {
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.footer-icon a i {
+    font-size: 2.4rem;
+    color: var(--second-bg-color);
+}
+
+/* BREAKPOINTS */
+@media(max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media(max-width: 991px) {
+    header {
+        padding: 2rem 3%;
+    }
+
+    section {
+        padding: 10rem 3% 2rem;
+    }
+
+    .services {
+        padding-bottom: 7rem;
+    }
+
+    .portfolio {
+        padding-bottom: 7rem;
+    }
+
+    .contact {
+        min-height: auto;
+    }
+
+    .footer {
+        padding: 2rem 3%;
+    }
+}
+
+@media(max-width: 768px) {
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, .2) ;
+        box-shadow: 0 .5rem rgba(0, 0, 0, .2);
+        display: none;
+    }
+    
+    .navbar .active {
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+    .home-content h3 {
+        font-size: 2.6rem;
+    }
+
+    .home-content h1 {
+        font-size: 5rem;
+    }
+
+    .home-img img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+    }
+
+    .about img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    .services h2 {
+        margin-bottom: 3rem;
+    }
+
+    .portfolio h2 {
+        margin-bottom: 3rem;
+    }
+
+    .portfolio-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 617px) {
+    .portfolio-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+
+    .contact form .input-box input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 365px) {
+    .home-img img {
+        width: 90vw;
+    }
+
+    .about-img img {
+        width: 90vw;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    .footer p {
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
+/*==================== toggle icon navbar  ====================*/
+let menuIcon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
+
+menuIcon.onclick = () => {
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+}
+/*==================== scroll sections active link  ====================*/
+let sections = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('header nav a');
+
+windows.onscroll = () => {
+    sections.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 150;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute('id');
+
+        if(top >= offset && top < offset + height) {
+            navLinks.forEach(links => {
+                links.classList.remove,ove('active');
+                document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+            });
+        };
+    });
+    /*==================== sticky navbar  ====================*/
+    let header = document.querySelector('header');
+
+    header.classList.toggle('sticky', window.scrollY > 100);
+    /*==================== remove toggle icon and navbarwhen click navbar link (scroll)  ====================*/
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
+};
+
+/*==================== scroll reveal  ====================*/
+ScrollReveal({
+    //reset: true,
+    distance: '80px',
+    duration: 2000,
+    delay: 200
+
+});
+
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
+ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+
+
+/*==================== typed js  ====================*/
+const typed = new Typed('.multiple-text', {
+    strings: ['Frontend Developer', 'Youtuber', 'Blogger'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+});
